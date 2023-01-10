@@ -1,4 +1,4 @@
-baseURL: https://cocochran.xyz/
+baseURL: https://cocochran.xyz
 title: charlola.mode
 paginate: 5
 theme: charlolamode
@@ -51,7 +51,7 @@ params:
 
           I am currently working on a platformer game for a school project.
         imageUrl: "/images/java.jpeg"
-        imageTitle: my image
+        imageTitle: "my image"
         # imageWidth: 120
         # imageHeight: 120
         buttons:
