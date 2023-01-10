@@ -1,4 +1,4 @@
-baseURL: https://cocochran.xyz
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: charlola.mode
 paginate: 5
 theme: charlolamode
@@ -8,65 +8,63 @@ theme: charlolamode
 menu:
     main:
         - name: Contact
-          url: contact/
+          url: /contact/
           weight: 30
         - name: Articles
-          url: articles/
+          url: /articles/
           weight: 20
         - name: Projects
-          url: projects
+          url: /projects/
           weight: 15
 
      # - name: Categories
-        #   url: categories/
+        #   url: /categories/
         #   weight: 10
         # - name: new Tab
-        #   url: mewtab/
+        #   url: /newtab/
         #   weight: defines order of tabs
    
 
 
 params:
-    author: Connor Cochran
+    author: Author's Name
 
 
     defaultTheme: auto
     # disableThemeToggle: true
     ShowShareButtons: true
-    ShowReadingTime: false
+    ShowReadingTime: true
     displayFullLangName: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: true
 
     profileMode:
+        # Disable to populate home page with 'mainSections' content
         enabled: true
-        title: Connor Cochran
+        title: Joe Doe
         description: |
-
-          Hi, my name is Connor.
-
-           I am a student interested in web development, software development, and artificial intelligence. 
+          Hello, I am Joe.
+           I am a software developer. 
         
-
-          I am currently working on a platformer game for a school project.
-        imageUrl: "/images/java.jpeg"
-        imageTitle: "my image"
+          This is a minimalistic theme template for websites.
+        imageUrl: "/images/profile.png"
+        imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: NEVER GIVE UP!
-              url: "https://www.youtube.com/watch?v=tYzMYcUty6s"
+            - name: Don't click me
+              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     mainSections:
       - articles
 
     socialIcons:
-        - name: patreon
-          url: "https://www.patreon.com/user?u=86417490&fan_landing=true&view_as=public"
+        - name: buymeacoffee
+          url: "https://ko-fi.com/heycharlola"
         - name: github
-          url: "https://github.com/CoCochran"
+          url: "https://github.com/charlola"
         - name: linkedin
-          url: "https://www.linkedin.com/in/connor-cochran-a69241251?trk=public_profile_samename-profile"
+          url: "https://www.linkedin.com/in/heycharlola/"
 
       # add more social icons. find more in svg.html file
       # - name: youtube
@@ -94,4 +92,3 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
-
