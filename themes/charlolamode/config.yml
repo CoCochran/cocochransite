@@ -56,7 +56,7 @@ params:
         # imageHeight: 120
         buttons:
             - name: NEVER GIVE UP!
-              url: https://www.youtube.com/watch?v=tYzMYcUty6s
+              url: "https://www.youtube.com/watch?v=tYzMYcUty6s"
     mainSections:
       - articles
 
