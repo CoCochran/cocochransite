@@ -8,10 +8,10 @@ theme: charlolamode
 menu:
     main:
         - name: Contact
-          url: contact/
+          url: contact
           weight: 30
         - name: Articles
-          url: articles/
+          url: articles
           weight: 20
         - name: Projects
           url: projects
@@ -94,4 +94,5 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
+
 
