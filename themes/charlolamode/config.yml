@@ -1,4 +1,4 @@
-baseURL: https://cocochran.xyz
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: charlola.mode
 paginate: 5
 theme: charlolamode
@@ -8,10 +8,10 @@ theme: charlolamode
 menu:
     main:
         - name: Contact
-          url: contact
+          url: contact/
           weight: 30
         - name: Articles
-          url: articles
+          url: articles/
           weight: 20
         - name: Projects
           url: projects
@@ -51,12 +51,12 @@ params:
 
           I am currently working on a platformer game for a school project.
         imageUrl: "/images/java.jpeg"
-        imageTitle: "my image"
+        imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
             - name: NEVER GIVE UP!
-              url: "https://www.youtube.com/watch?v=tYzMYcUty6s"
+              url: https://www.youtube.com/watch?v=tYzMYcUty6s
     mainSections:
       - articles
 
@@ -94,5 +94,4 @@ pygmentsUseClasses: true
 
 minify:
     disableXML: true
-
 
